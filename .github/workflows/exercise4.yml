@@ -1,5 +1,8 @@
 name: buildfork
 
+permissions:
+  actions: write
+
 on:
   workflow_dispatch: # let it work manually
 
